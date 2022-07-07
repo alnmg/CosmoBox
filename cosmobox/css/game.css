@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+canvas{
+    position: relative;
+    background-color: white;
+    margin-top: 0%;
+}
+.debug{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    background: transparent;
+    z-index: 100;
+    background-color: aliceblue;
+}
+.debug #stats{
+    background-color: aliceblue;
+    position: absolute;
+
+}
