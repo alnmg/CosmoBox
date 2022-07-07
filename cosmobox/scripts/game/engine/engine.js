@@ -10,6 +10,7 @@ function startphysics(){
 let loopupdate = true
 function loop(){
     gameloop = requestAnimationFrame(loop)
+    resizecanvas()
     renderObjects()
 
     if(loopupdate){
